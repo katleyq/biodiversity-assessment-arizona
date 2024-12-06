@@ -1,4 +1,4 @@
-# Analyzing environmental impacts of urban expansion in Phoeniz, Arizona (2017-2020)
+# Analyzing environmental impacts of urban expansion in Phoenix, Arizona (2017-2020)
 
 **About**:
 
