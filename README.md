@@ -12,8 +12,9 @@ biodiversity-assessment-arizona
 └───notebooks
     │   bio-div-index-timeseries.ipynb
 └───data
-    └───phoenix-subdivision-polygons
-        └───phoenix-subdivision-polygons.shp
+    └───tl_2020_04_cousub
+        └───tl_2020_04_cousub.shp
+    └───phoenix.shp
 ```
 
 **Data Access**:
