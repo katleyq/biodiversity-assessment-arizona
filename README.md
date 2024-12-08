@@ -28,7 +28,7 @@ In this analysis, we will accomplish the following:
 This repository has two main notebooks:
 
 - `phoenix-shapefile.ipynb` contains code that creates the Phoenix shapefile used in 
-- `bio-div-index-timeseries.ipynb` contains f
+- `bio-div-index-timeseries.ipynb` contains our analysis of BII data
 
 
 
