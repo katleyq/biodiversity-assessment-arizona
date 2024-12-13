@@ -20,16 +20,12 @@ In this analysis, we will accomplish the following:
 
 **Repository Structure**:
 
-This repository has two main notebooks:
-
-- `notebooks/phoenix-shapefile.ipynb` contains code that creates the Phoenix shapefile used in 
-- `notebooks/bio-div-index-timeseries.ipynb` contains our analysis of BII data.
-
+This repository contains the following structure:
 
 ```
 ├── notebooks
-│   ├──bio-div-index-timeseries.ipynb
-│   └──phoenix-shapefile.ipynb
+│   ├──bio-div-index-timeseries.ipynb # contains code the creates Phoenix shapefile store in data folder
+│   └──phoenix-shapefile.ipynb # contains out analysis of BII data
 ├── .gitignore
 ├── LICENSE
 ├── README.md
