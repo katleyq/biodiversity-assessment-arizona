@@ -7,7 +7,7 @@ Source: [Mario Tama / Getty Images](https://www.newscientist.com/article/2453640
 
 **About**:
 
-This purpose of this repository is to analyze the environmental impacts of urban expansion in Phoenix, Arizona from 2017 to 2020. This analysis will look at the biodiversity intactness index dataset developed by Gassert et al 2022 to assess how urban expansion has affected biodiversity in Phoenix. This analysis will generate a time series visualization of how biodiversity has changed in the area of interest.
+This purpose of this repository is to analyze the environmental impacts of urban expansion in Phoenix, Arizona from 2017 to 2020. This analysis will look at the biodiversity intactness index dataset developed by Gassert, Mazzarello, & Hyde (2022) to assess how urban expansion has affected biodiversity in Phoenix. This analysis will generate a time series visualization of how biodiversity has changed in the area of interest.
 
 **Highlights**:
 
@@ -24,8 +24,8 @@ This repository contains the following structure:
 
 ```
 ├── notebooks
-│   ├──bio-div-index-timeseries.ipynb # contains code the creates Phoenix shapefile store in data folder
-│   └──phoenix-shapefile.ipynb # contains out analysis of BII data
+│   ├──bio-div-index-timeseries.ipynb # contains analysis of BII data
+│   └──phoenix-shapefile.ipynb # contains code that creates Phoenix shapefile, stored output in data folder
 ├── .gitignore
 ├── LICENSE
 ├── README.md
@@ -46,13 +46,13 @@ Here is the structure of the data folder:
 
 ```
 ├── data
-│   ├── phoenix
+│   ├── phoenix # contains Phoenix shapefiles from phoenix-shapefile.ipynb output
 │   │   ├── phoenix.shx
 │   │   ├── phoenix.shp
 │   │   ├── phoenix.prj
 │   │   ├── phoenix.dbf
 │   │   └── phoenix.cpg
-│   ├── tl_2020_04_cousub
+│   ├── tl_2020_04_cousub # contains all county boundary data used in phoenix-shapefile.ipynb
 │   │   ├── tl_2020_04_cousub.shp
 │   │   ├── tl_2020_04_cousub.shx
 │   │   ├── tl_2020_04_cousub.prj
@@ -65,8 +65,7 @@ Here is the structure of the data folder:
 
 **References**:
 
-F. Gassert, J. Mazzarello, and S. Hyde, “Global 100m Projections of Biodiversity Intactness for the years 2017-2020 [Technical Whitepaper].” Aug. 2022. Available: https://ai4edatasetspublicassets.blob.core.windows.net/assets/pdfs/io-biodiversity/Biodiversity_Intactness_whitepaper.pdf
-
+Gassert, F., Mazzarello, J., & Hyde, S. (2022, August). Global 100m projections of biodiversity intactness for the years 2017-2020 [Technical whitepaper]. Retrieved from https://ai4edatasetspublicassets.blob.core.windows.net/assets/pdfs/io-biodiversity/Biodiversity_Intactness_whitepaper.pdf
 
 
 **Acnknowledgements**
