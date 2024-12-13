@@ -43,7 +43,7 @@ This repository has two main notebooks:
 
 **Data Access**
 
-To access the data, you can download the data folder from this link: https://drive.google.com/drive/folders/10OI35VwtgBZTdSjY6668Joyu5mRAEB6_
+To access the data, you can download the data folder from this link: https://drive.google.com/drive/folders/10OI35VwtgBZTdSjY6668Joyu5mRAEB6_?usp=sharing
 
 Once you download the data, you can add it to your local copy of the repository to run the notebooks.
 
