@@ -25,7 +25,7 @@ This repository contains the following structure:
 ```
 ├── notebooks
 │   ├──bio-div-index-timeseries.ipynb # contains analysis of BII data
-│   └──phoenix-shapefile.ipynb # contains code that creates Phoenix shapefile, stored output in data folder
+│   └──phoenix-shapefile.ipynb # contains code that creates Phoenix shapefile, output is stored in data folder
 ├── .gitignore
 ├── LICENSE
 ├── README.md
@@ -46,13 +46,13 @@ Here is the structure of the data folder:
 
 ```
 ├── data
-│   ├── phoenix # contains Phoenix shapefiles from phoenix-shapefile.ipynb output
+│   ├── phoenix # contains Phoenix spatial data from phoenix-shapefile.ipynb output
 │   │   ├── phoenix.shx
 │   │   ├── phoenix.shp
 │   │   ├── phoenix.prj
 │   │   ├── phoenix.dbf
 │   │   └── phoenix.cpg
-│   ├── tl_2020_04_cousub # contains all county boundary data used in phoenix-shapefile.ipynb
+│   ├── tl_2020_04_cousub # contains all county boundary spatial data used in phoenix-shapefile.ipynb
 │   │   ├── tl_2020_04_cousub.shp
 │   │   ├── tl_2020_04_cousub.shx
 │   │   ├── tl_2020_04_cousub.prj
