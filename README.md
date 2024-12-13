@@ -17,11 +17,6 @@ In this analysis, we will accomplish the following:
 - Compute raster stastistics of BII data
 - Create data visualizations of BII data as a static plot and a time-series GIF 
 
-**Data Access**:
-
-1. **Phoenix Subdivision boundaries**: The original boundary data was retrieved from the US Census Bureau's 2020 Tiger / Line Shapefiles dataset. This dataset contains counties and subdivision boundaries from the US Census Bureau. It was subsetted for Phoenix and cleaned using `notebooks/phoenix-shapefile.ipynb`. (Original Source: [2020 Tiger/Line shapefiles](https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2020&layergroup=County+Subdivisions))
-
-2. **Biodiversity Intactness Index (BII) Dataset**: This data was retrieved from the Microsoft Planetary Computer Data Catalogue. This dataset contains Biodiversity Intactness Index data from a model developed by Gassert et al in their project titled, "Global 100m Projections of Biodiversity Intactness for the years 2017-2020Global 100m Projections of Biodiversity Intactness for the years 2017-2020". (Original Source:  [Microsoft Planetary Computer Data Catalogue](https://planetarycomputer.microsoft.com/dataset/io-biodiversity))
 
 **Repository Structure**:
 
@@ -41,9 +36,13 @@ This repository has two main notebooks:
 
 ```
 
-**Data Access**
+**Data Access**:
 
-To access the data, you can download the data folder from this link: https://drive.google.com/drive/folders/10OI35VwtgBZTdSjY6668Joyu5mRAEB6_?usp=sharing
+1. **Phoenix Subdivision boundaries**: The original boundary data was retrieved from the US Census Bureau's 2020 Tiger / Line Shapefiles dataset. This dataset contains counties and subdivision boundaries from the US Census Bureau. It was subsetted for Phoenix and cleaned using `notebooks/phoenix-shapefile.ipynb`. (Original Source: [2020 Tiger/Line shapefiles](https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2020&layergroup=County+Subdivisions))
+
+2. **Biodiversity Intactness Index (BII) Dataset**: This data was retrieved from the Microsoft Planetary Computer Data Catalogue. This dataset contains Biodiversity Intactness Index data from a model developed by Gassert et al in their project titled, "Global 100m Projections of Biodiversity Intactness for the years 2017-2020Global 100m Projections of Biodiversity Intactness for the years 2017-2020". (Original Source:  [Microsoft Planetary Computer Data Catalogue](https://planetarycomputer.microsoft.com/dataset/io-biodiversity))
+
+To access the data used in this repository, you can download the data folder from this link: https://drive.google.com/drive/folders/10OI35VwtgBZTdSjY6668Joyu5mRAEB6_?usp=sharing
 
 Once you download the data, you can add it to your local copy of the repository to run the notebooks.
 
