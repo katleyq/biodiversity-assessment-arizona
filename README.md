@@ -39,11 +39,13 @@ This repository contains the following structure:
 2. **Biodiversity Intactness Index (BII) Dataset**: This data was retrieved from the Microsoft Planetary Computer Data Catalogue. This dataset contains Biodiversity Intactness Index data from a model developed by Gassert, Mazzarello, & Hyde (2022). (Original Source:  [Microsoft Planetary Computer Data Catalogue](https://planetarycomputer.microsoft.com/dataset/io-biodiversity))
 
 **Data Access**
+
 To access the data used in this repository, you can download the data folder from this link: https://drive.google.com/drive/folders/10OI35VwtgBZTdSjY6668Joyu5mRAEB6_?usp=sharing
 
 Once you download the data, you can add it to your local copy of the repository to run the notebooks.
 
 **Data Folder Structure**:
+
 
 ```
 ├── data
