@@ -27,37 +27,53 @@ In this analysis, we will accomplish the following:
 
 This repository has two main notebooks:
 
-- `phoenix-shapefile.ipynb` contains code that creates the Phoenix shapefile used in 
-- `bio-div-index-timeseries.ipynb` contains our analysis of BII data
-
+- `notebooks/phoenix-shapefile.ipynb` contains code that creates the Phoenix shapefile used in 
+- `notebooks/bio-div-index-timeseries.ipynb` contains our analysis of BII data.
 
 
 ```
-├── README.md
-├── LICENSE
-├── .gitignore
 ├── notebooks
 │   ├──bio-div-index-timeseries.ipynb
 │   └──phoenix-shapefile.ipynb
-└── data
-    ├── tl_2020_04_cousub
-    │   ├──tl_2020_04_cousub.shx
-    │   ├──tl_2020_04_cousub.shp.iso.xml
-    │   ├──tl_2020_04_cousub.shp.ea.iso.xml
-    │   ├──tl_2020_04_cousub.shp
-    │   ├──tl_2020_04_cousub.prj
-    │   ├──tl_2020_04_cousub.dbf
-    │   └──tl_2020_04_cousub.cpg
-    └── phoenix
-        ├──phoenix.shx
-        ├──phoenix.shp
-        ├──phoenix.prj
-        ├──phoenix.dbf
-        └──phoenix.cpg
+├── .gitignore
+├── LICENSE
+├── README.md
 
 ```
 
+**Data Access*
+
+To access the data, you can download the data folder from this link: https://drive.google.com/drive/folders/10OI35VwtgBZTdSjY6668Joyu5mRAEB6_
+
+Once you download the data, you can add it to your local copy of the repository to run the notebooks.
+
+Here is the structure of the data folder:
+
+```
+├── data
+│   ├── phoenix
+│   │   ├── phoenix.shx
+│   │   ├── phoenix.shp
+│   │   ├── phoenix.prj
+│   │   ├── phoenix.dbf
+│   │   └── phoenix.cpg
+│   ├── tl_2020_04_cousub
+│   │   ├── tl_2020_04_cousub.shp
+│   │   ├── tl_2020_04_cousub.shx
+│   │   ├── tl_2020_04_cousub.prj
+│   │   ├── tl_2020_04_cousub.dbf
+│   │   ├── tl_2020_04_cousub.cpg
+│   │   ├── tl_2020_04_cousub.shp.iso.xml
+│   │   └── tl_2020_04_cousub.shp.ea.iso.xml
+
+```
 
 **References**:
 
 F. Gassert, J. Mazzarello, and S. Hyde, “Global 100m Projections of Biodiversity Intactness for the years 2017-2020 [Technical Whitepaper].” Aug. 2022. Available: https://ai4edatasetspublicassets.blob.core.windows.net/assets/pdfs/io-biodiversity/Biodiversity_Intactness_whitepaper.pdf
+
+
+
+**Acnknowledgements**
+
+This repository was created as an assignment for [EDS 220: Working with Environmental Datasets](https://meds-eds-220.github.io/MEDS-eds-220-course/) at the [UCSB Bren School of Environmental Science & Management](https://bren.ucsb.edu/). This course is led by Dr. Carmen Galaz-Garcia and Annie Adams. 
