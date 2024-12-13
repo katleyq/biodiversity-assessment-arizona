@@ -67,6 +67,9 @@ Here is the structure of the data folder:
 
 Gassert, F., Mazzarello, J., & Hyde, S. (2022, August). Global 100m projections of biodiversity intactness for the years 2017-2020 [Technical whitepaper]. Retrieved from https://ai4edatasetspublicassets.blob.core.windows.net/assets/pdfs/io-biodiversity/Biodiversity_Intactness_whitepaper.pdf
 
+Microsoft Planetary Computer. (n.d.). Biodiversity intactness index [Data set]. Retrieved December 5, 2024, from https://planetarycomputer.microsoft.com/dataset/io-biodiversity
+
+U.S. Census Bureau. (2020). County subdivisions shapefiles [Data set]. Retrieved from https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2020&layergroup=County+Subdivisions
 
 **Acnknowledgements**
 
