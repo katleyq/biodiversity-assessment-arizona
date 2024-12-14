@@ -20,7 +20,8 @@ In this analysis, we will accomplish the following:
 
 **Repository Structure**:
 
-This repository contains the following structure:
+This repository contains Jupyter notebooks that will help 
+This repository has the following structure:
 
 ```
 ├── notebooks
