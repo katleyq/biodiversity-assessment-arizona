@@ -20,7 +20,8 @@ In this analysis, we will accomplish the following:
 
 **Repository Structure**:
 
-This repository contains Jupyter notebooks that will help 
+This repository contains Jupyter notebooks that will demonstrate how to analyze BII data to see how biversity has changed in Phoenix, Arizona from 2017 to 2020. 
+
 This repository has the following structure:
 
 ```
